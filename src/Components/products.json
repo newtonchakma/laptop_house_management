@@ -1,0 +1,140 @@
+[
+    {
+      "img": "https://i.ibb.co/0t8Dp0g/1.png",
+      "name": "Asus Vivobook X515MA ",
+      "supplier": "Addidas",
+      "price": 420,
+      "stock": 20,
+      "description": "Asus Vivobook X515MA Celeron N4020 15.6 FHD Laptop comes with Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz), 4GB DDR4 RAM, 1TB HDD, Intel HD Graphics and Window 10.",
+      "quantity": 90
+    },
+    {
+      "img": "https://i.ibb.co/LzxWHqm/2.png",
+      "name": "HP 15s-eq1548AU AMD ",
+      "supplier": "Jakir Hosen",
+      "price": 450,
+      "description": "The HP 15s-eq1548AU Laptop is powered by the AMD Athlon Silver 3050U (2.3 GHz up to 3.2GHz) Processor and 8 GB DDR4-2400 MHz RAM. The AMD Athlon Silver 3050U is a mobile processor for thin and light entry-level laptops.",
+      "quantity": 50
+    },
+    {
+      "img": "https://i.ibb.co/SPLWQVr/27.png",
+      "name": "Lenovo IdeaCentre A340-24IWL",
+      "supplier": "Ahmir Abbas",
+      "price": 410,
+      "description": "The Lenovo IdeaCentre A340-24IWL comes with Intel Core i5-10210U Processor (6M Cache, 1.60 GHz up to 4.20 GHz) and 4GB DDR4 2666 MHz RAM. it has one DDR4 SO-DIMM slot that supports up to 16GB DDR4-2400 RAM.",
+      "quantity": 140
+    },
+    {
+      "img": "https://i.ibb.co/RhmbCrc/10.png",
+      "name": "HP ProOne 400 G6 ",
+      "supplier": "Sumon",
+      "price": 720,
+      "description": "HP ProOne 400 G6 All in One PC comes with Intel Core i5-10500 Processor (12M Cache, 3.10 GHz up to 4.50 GHz), 8GB DDR4-2666 MHz RAM, Intel UHD Graphics 630, 1TB 7200 RPM SATA HDD (2.5 in), Realtek ALC3252 codec, internal speaker, combo microphone/headphone jack, HP 9.5 mm Slim DVD-Writer.",
+      "quantity": 120
+    },
+    {
+      "img": "https://i.ibb.co/4J6GYSt/12.png",
+      "name": "ASUS Vivo AIO V222FAK ",
+      "supplier": "Mithun Chakma",
+      "price": 520,
+      "description": "ASUS Vivo AIO V222FAK all-in-one PC has a near-invisible 2mm display bezel giving you edge-to-edge visuals and an incredible 87% screen-to-body ratio. It's display is featuring with a 21.5-inch Full HD LED resolution, wide 178° viewing angles, and 100% sRGB color.",
+      "quantity": 75
+    },
+    {
+      "img": "https://i.ibb.co/mhcp8F7/6.png",
+      "name": "MSI Modern 14 B11MW",
+      "supplier": "shubas Das",
+      "price": 520,
+  
+      "description": "The MSI Modern 14 B11MO Laptop features Intel Core i3-1115G4 Processor (6M Cache, 3.00 GHz up to 4.10 GHz) and 8GB DDR4 3200MHz RAM. It comes with a 512GB NVMe PCIe Gen3x4 SSD. This laptop has been Intel UHD Graphics and has a 14 FHD (1920 x 1080) IPS LED Display.",
+      "quantity": 30
+    },
+    {
+      "img": "https://i.ibb.co/NrBcp6L/7.png",
+      "name": "Lenovo IdeaPad Slim ",
+      "supplier": "Kamal Hosen",
+      "price": 320,
+
+      "description": "Lenovo IP Slim Laptop comes with intel core i3-1115G4 Processor (6MB cache, 3.0 GHz up to 4.1 GHz) with Integrated Intel UHD Graphics. This Lenovo IP Slim comes with 8GB DDR4 3200MHz RAM (Expandable up to 12GB), 256GB M.2 2242 PCIe 3.0x4 NVMe SSD and you can do more with your PC.",
+      "quantity": 80
+    },
+    {
+      "img": "https://i.ibb.co/QMBNY29/8.png",
+      "name": "Gigabyte G5 GD",
+      "supplier": "Jasika Chakma",
+      "price": 470,
+      "description": "The Gigabyte G5 GD laptop comes with Intel Core i5-11400H Processor (12M Cache, 2.70 GHz up to 4.50 GHz) and Mobile Intel HM570 Express Chipset. It is loaded with 16GB (8GBx2) DDR4 3200MHz RAM. It has 2x DDR4 Slots that support DDR4-3200, up to 64GB RAM.",
+      "quantity": 40
+    },
+   
+    {
+      "img": "https://i.ibb.co/RhmbCrc/10.png",
+      "name": "Asus VivoBook 15 K513EP ",
+      "supplier": "AmorPriyo",
+      "price": 400,
+      "description": "Asus VivoBook 15 K513EP Laptop comes with Intel Core i5-1135G7 Processor (8M Cache, 2.40 GHz up to 4.20 GHz), 8GB DDR4 3200MHz SDRAM Onboard Memory, 1 x SO-DIMM socket for expansion, total up to 12 GB SDRAM, 512GB PCIe Gen3 x2 SSD M.2",
+      "quantity": 10
+    },
+    {
+      "img": "https://i.ibb.co/wLMgq9L/11.png",
+      "name": "HP ProOne 400 G6 ",
+      "supplier": "Swinton Chakma",
+      "price": 420,
+      "description": "HP ProOne 400 G6 All in One PC comes with Intel Core i5-10500 Processor (12M Cache, 3.10 GHz up to 4.50 GHz), 8GB DDR4-2666 MHz RAM, Intel UHD Graphics 630, 1TB 7200 RPM SATA HDD (2.5 in).",
+      "quantity": 30
+    },
+    {
+      "img": "https://i.ibb.co/4J6GYSt/12.png",
+      "name": "Gigabyte G5 GD ",
+      "supplier": "Newton Chakma",
+      "price": 520,
+      "description": "The Gigabyte G5 GD laptop comes with Intel Core i5-11400H Processor (12M Cache, 2.70 GHz up to 4.50 GHz) and Mobile Intel HM570 Express Chipset. It is loaded with 16GB (8GBx2) DDR4 3200MHz RAM. It has 2x DDR4 Slots that support DDR4-3200, up to 64GB RAM.",
+      "quantity": 70
+    },
+    {
+      "img": "https://i.ibb.co/9wDy8mZ/15.png",
+      "name": "Asus VivoBook 15 K513EP ",
+      "supplier": "Sudeb",
+      "price": 300,
+      "description": "Asus VivoBook 15 K513EP Laptop comes with Intel Core i5-1135G7 Processor (8M Cache, 2.40 GHz up to 4.20 GHz), 8GB DDR4 3200MHz SDRAM Onboard Memory, 1 x SO-DIMM socket for expansion, total up to 12 GB SDRAM, 512GB PCIe Gen3 x2 SSD M.2",
+      "quantity": 100
+    },
+    {
+      "img": "https://i.ibb.co/1JNPpzv/16.png",
+      "name": "Lenovo IdeaCentre A340-24IWL ",
+      "supplier": "Tarek",
+      "price": 420,
+      "stock": 20,
+      "description": "The Lenovo IdeaCentre A340-24IWL comes with Intel Core i5-10210U Processor (6M Cache, 1.60 GHz up to 4.20 GHz) and 4GB DDR4 2666 MHz RAM. it has one DDR4 SO-DIMM slot that supports up to 16GB DDR4-2400 RAM.",
+      "quantity": 200
+    },
+    {
+      "img": "https://i.ibb.co/yB9gT1K/18-1.png",
+      "name": "Gigabyte G5 GD ",
+      "supplier": "Ronjen",
+      "price": 620,
+      "description": "The Gigabyte G5 GD laptop comes with Intel Core i5-11400H Processor (12M Cache, 2.70 GHz up to 4.50 GHz) and Mobile Intel HM570 Express Chipset. It is loaded with 16GB (8GBx2) DDR4 3200MHz RAM.",
+      "quantity": 90
+    },
+   
+   
+ 
+  
+    {
+      "img": "https://i.ibb.co/zsZ8R4p/25.png",
+      "name": "Asus ExpertBook B3 Flip B3402FEA",
+      "supplier": "Sumin",
+      "price": 320,
+      "description": "ASUS ExpertBook B3 Flip B3402FEA is built to embrace the new normal hybrid working and learning. It is the best choice for teachers and students as well as business users and pros. This ASUS ExpertBook B3 Flip B3402FEA powered byIntel Core i5-1135G7 (8M Cache, 2.40 GHz up to 4.20 GHz) and Intel Iris Xe Graphics. This ExpertBook B3 Flip B3402FEA has 8GB DDR4 3200MHz RAM and 512GB M.2 .",
+      "quantity": 20
+    },
+   
+    {
+      "img": "https://i.ibb.co/SPLWQVr/27.png",
+      "name": "Asus ZenBook 14 UX425EA ",
+      "supplier": "Repol",
+      "price": 220,
+      "description": "Asus ZenBook 14 UX425EA laptop comes with Intel Core i5-1135G7 Processor (8M Cache, 2.40 GHz up to 4.20 GHz), 8GB 3200MHz LPDDR4X RAM (On Board), 512GB PCIeG3 NVMe SSD ",
+      "quantity": 90
+    }
+]
