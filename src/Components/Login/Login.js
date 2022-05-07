@@ -1,9 +1,13 @@
 import React, { useRef } from 'react';
-import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import Loading from '../../Sharepages/Loading/Loading';
 import './Login.css'
 import SocialLogin from './SocialLogin/SocialLogin';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Login = () => {
     const emailRef = useRef('');
@@ -18,7 +22,13 @@ const Login = () => {
         loading,
         error,
       ] = useSignInWithEmailAndPassword(auth);
+      const [sendPasswordResetEmail, sending] = useSendPasswordResetEmail( auth);
 
+      if(loading){
+        if(loading || sending){
+            return <Loading></Loading>
+          }
+      }
       if(user) {
           navigate('/home');
       }
@@ -33,6 +43,16 @@ const Login = () => {
      const navigateRegister = event =>{
         Navigate('/registration');
     }
+    const resetPassword =async()=>{
+        const email = emailRef.current.value;
+        if(email){
+            await sendPasswordResetEmail(email);
+            toast('Sent email')
+        }
+       else{
+           toast('please enter your email address')
+       }
+    }
     return (
         <>
              <div className='login-form'>
@@ -46,7 +66,9 @@ const Login = () => {
                 </div>
             </form>
             <p>create new account? <Link to='/registration' className='text-primary text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
+            <p>Forget Password? <button to='/register' className='text-primary btn btn-link text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
             <SocialLogin></SocialLogin>
+            <ToastContainer />
             </div>
         </>
     );
