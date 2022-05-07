@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import './Login.css'
 
 const Login = () => {
+    const emailRef = useRef('');
+    const passwordRef = useRef('');
     const navigate = useNavigate()
     const handleSubmit = e =>{
         e.preventDefault();
+        const email = emailRef.current.value;
+        const password = passwordRef.current.value;
+        console.log(email, password);
         
      }
      const navigateRegister = event =>{
@@ -16,9 +21,9 @@ const Login = () => {
              <div className='login-form'>
             <h2 className='text-center text-primary'>PLEASE LOGIN</h2>
             <form onSubmit={handleSubmit}>
-                <input  type="email" name="email" id="" placeholder="Email Address" required/>
+                <input ref={emailRef}  type="email" name="email" id="" placeholder="Email Address" required/>
            
-                <input  type="password" name="password" id="" placeholder="Password" required/>
+                <input ref={passwordRef}  type="password" name="password" id="" placeholder="Password" required/>
                 <div className="">
                 <input className='w-50 d-block mx-auto py-3 rounded-2 bg-primary' type="submit" value="LogIn" />
                 </div>
