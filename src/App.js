@@ -8,6 +8,7 @@ import Registration from './Components/Login/Registration/Registration';
 import Products from './Components/Products/Products';
 import Inventory from './Components/Inventory/Inventory';
 import NotFound from './Sharepages/NotFound/NotFound';
+import RequireAuth from './Components/Login/RequireAuth/RequireAuth';
 
 
 function App() {
@@ -18,7 +19,11 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/products" element={<Products></Products>}></Route>
-        <Route path="/product/:productId" element={<Inventory></Inventory>}></Route>
+        <Route path="/product/:productId" element={
+          <RequireAuth>
+            <Inventory></Inventory>
+          </RequireAuth>
+        }></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/registration" element={<Registration></Registration>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
