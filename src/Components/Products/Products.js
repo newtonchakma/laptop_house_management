@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import InventoryItem from '../InventoryItem/InventoryItem';
+import Product from '../Product/Product';
 
-const InventoryItems = () => {
+const Products = () => {
     const [laptops, setLaptops] = useState([]);
 
     useEffect(() => {
@@ -20,10 +20,10 @@ const InventoryItems = () => {
             {
               
 
-               laptops.length< 6? laptops:laptops.slice(0,6).map(laptop =><InventoryItem 
+               laptops.length< 6? laptops:laptops.slice(0,6).map(laptop =><Product 
                 key={laptop.id} 
                 laptop={laptop}
-                ></InventoryItem>)
+                ></Product>)
              
             }
             </div>
@@ -37,4 +37,4 @@ const InventoryItems = () => {
     );
 };
 
-export default InventoryItems;
+export default Products;

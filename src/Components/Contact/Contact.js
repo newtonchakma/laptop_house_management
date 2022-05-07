@@ -4,7 +4,7 @@ import { faMapMarkedAlt, faPhoneSquareAlt } from '@fortawesome/free-solid-svg-ic
 
 const Contact = () => {
     return (
-        <div className="container mb-5 pb-5 mt-5">
+        <div id='contact' className="container mb-5 pb-5 mt-5">
            <div className="card">
            <div className="card-body">
                     <h1 className="text-center text-primary mb-4 mt-2 text-uppercase">Contact us</h1>

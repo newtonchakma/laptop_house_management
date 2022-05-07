@@ -1,12 +1,18 @@
 import React from 'react';
-import './InventoryItem.css'
+import { useNavigate } from 'react-router-dom';
+import './Product.css'
 
-const InventoryItem = (props) => {
- const {img,name,price,quantity,id,description,supplier} = props.laptop;
+const Product = (props) => {
+ const {img,name,price,quantity,_id,description,supplier} = props.laptop;
+ const navigate = useNavigate();
+
+ const updateToProduct = id =>{
+    navigate(`/product/${id}`)
+ }
     return (
         <>
        
-        <div className="col-sm-12 col-md-6 col-lg-4 col-12 gx-5">
+        <div id='product' className="col-sm-12 col-md-6 col-lg-4 col-12 gx-5">
              <div class="card shadow-lg product">
              <img src={img} class="card-img-top"/>
                 <div className="card-body">
@@ -16,7 +22,7 @@ const InventoryItem = (props) => {
                    <p className="py-0 my-0"> <strong>Supplier Name: </strong>  
                    : {supplier}</p>
                    <p className="my-0 py-0"><strong>Description: </strong> {description}</p>
-                 <button className="btn btn-primary w-100"><small> updated</small></button>
+                 <button onClick={()=> updateToProduct(_id)} className="btn btn-primary w-100"><small> updated</small></button>
              </div>
              </div>
              </div>
@@ -25,4 +31,4 @@ const InventoryItem = (props) => {
     );
 };
 
-export default InventoryItem;
+export default Product;
