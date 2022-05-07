@@ -11,7 +11,9 @@ const InventoryItems = () => {
         .then(data => setLaptops(data))
     },[])
     return (
-        <div className= 'container'>
+       <>
+
+<div className= 'container' id='inventoryItem'>
             <h1>InventoryItems</h1>
             <div className="container card-group">
             <div className="row gx-3 gy-3">
@@ -26,7 +28,12 @@ const InventoryItems = () => {
             }
             </div>
             </div>
+            <div className="w-50 mt-3 mx-auto text-center">
+               <button className='btn btn-primary' >manage inventory</button>
+         </div>
         </div>
+       
+       </>
     );
 };
 

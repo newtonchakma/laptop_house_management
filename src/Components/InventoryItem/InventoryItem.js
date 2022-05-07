@@ -10,16 +10,17 @@ const InventoryItem = (props) => {
              <div class="card shadow-lg product">
              <img src={img} class="card-img-top"/>
                 <div className="card-body">
-                  <h6>{name}</h6>
-                   <p className=""><strong>Price: </strong> <span>$</span>{price}</p>
-                   <p className=""><strong>Quantity: </strong>  {quantity}</p>
-                   <p > <strong>Supplier Name: </strong>  
+                <h6><strong>{name}</strong></h6>
+                   <p className="my-0"><strong>Price: </strong> <span>$</span>{price}</p>
+                   <p className="py-0 my-0"><strong>Quantity: </strong>  {quantity}</p>
+                   <p className="py-0 my-0"> <strong>Supplier Name: </strong>  
                    : {supplier}</p>
-                   <p><strong>Description: </strong> {description}</p>
+                   <p className="my-0 py-0"><strong>Description: </strong> {description}</p>
                  <button className="btn btn-primary w-100"><small> updated</small></button>
              </div>
              </div>
              </div>
+            
         </>
     );
 };
