@@ -9,6 +9,8 @@ import Products from './Components/Products/Products';
 import Inventory from './Components/Inventory/Inventory';
 import NotFound from './Sharepages/NotFound/NotFound';
 import RequireAuth from './Components/Login/RequireAuth/RequireAuth';
+import ManageInventory from './Components/ManageInventory/ManageInventory';
+import ManageInventoryItem from './Components/ManageInventoryItem/ManageInventoryItem';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/registration" element={<Registration></Registration>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
+        <Route path="/manageInventory" element={<ManageInventory></ManageInventory>}></Route>
+        <Route path="/manageInventoryItem" element={<ManageInventoryItem></ManageInventoryItem>}></Route>
       </Routes>
     </div>
   );

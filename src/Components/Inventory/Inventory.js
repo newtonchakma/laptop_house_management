@@ -12,7 +12,7 @@ const Inventory = () => {
         .then(data =>setProduct(data))
     }, [])
     return (
-        <div>
+        <div className='mt-4 '>
             <h1>inventory : {product.name}</h1>
 
             <div className="card mb-3 w-75 mx-auto shadow" >
@@ -22,13 +22,14 @@ const Inventory = () => {
     </div>
     <div className="col-md-8">
       <div className="card-body">
+      <p className="py-0 my-0"><strong>Quantity: </strong>  {product.name}</p>
       <p className="my-0"><strong>Price: </strong> <span>$</span>{product.price}</p>
                    <p className="py-0 my-0"><strong>Quantity: </strong>  {product.quantity}</p>
                    <p className="py-0 my-0"> <strong>Supplier Name: </strong>  
                    : {product.supplier}</p>
                    <p className="my-0 py-0"><strong>Description: </strong> {product.description}</p>
       
-        <p className="card-text"><small class="text-muted">
+        <p className="card-text mt-1"><small>
             <button className='me-1'>Delivered</button>
             <input className='w-25'  type="text" /> <button>Restock</button>
         </small></p>
