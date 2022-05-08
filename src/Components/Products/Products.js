@@ -6,6 +6,7 @@ const Products = () => {
 
     useEffect(() => {
         const url = 'http://localhost:5000/laptop';
+        console.log(url);
         fetch(url)
         .then(response => response.json())
         .then(data => setLaptops(data))
@@ -13,15 +14,14 @@ const Products = () => {
     return (
        <>
 
-<div className= 'container' id='inventoryItem'>
+       <div className= 'container' id='inventoryItem'>
             <h1>InventoryItems</h1>
             <div className="container card-group">
             <div className="row gx-3 gy-3">
             {
               
-
-               laptops.length< 6? laptops:laptops.slice(0,6).map(laptop =><Product 
-                key={laptop.id} 
+               laptops.map(laptop =><Product 
+                key={laptop._id} 
                 laptop={laptop}
                 ></Product>)
              
@@ -38,3 +38,5 @@ const Products = () => {
 };
 
 export default Products;
+
+ {/*     products.length< 6? products:products.slice(0,6).map(product =><Product  */}
