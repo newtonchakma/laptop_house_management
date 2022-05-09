@@ -23,10 +23,17 @@ const Header = () => {
         <Nav.Link href="home#product">Product</Nav.Link>
         <Nav.Link href ="home#contact">Contact Us</Nav.Link>
         <Nav.Link as ={Link} to="inventory">Inventory</Nav.Link>
+        <Nav.Link as ={Link} to="blogs">Blogs</Nav.Link>
+      
 
         {
-          user ?
-          <button onClick={handleSignOut} className=''>Sign Out</button>
+          user && <>
+          <Nav.Link as ={Link} to="myItem">MyItem</Nav.Link>
+          </>
+        }
+        {
+          user ?   
+            <button onClick={handleSignOut} className=''>Sign Out</button>     
           :
           <Nav.Link as ={Link} to="login">Login</Nav.Link>
         }

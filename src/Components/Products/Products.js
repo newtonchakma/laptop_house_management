@@ -21,7 +21,7 @@ const Products = () => {
             <div className="row gx-3 gy-3">
             {
               
-               laptops.map(laptop =><Product 
+           laptops.length<6? laptops:laptops.slice(0,6).map(laptop =><Product 
                 key={laptop._id} 
                 laptop={laptop}
                 ></Product>)
