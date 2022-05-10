@@ -15,7 +15,7 @@ const Products = () => {
        <>
 
        <div className= 'container'>
-            <h1>InventoryItems</h1>
+            <h1 className='text-center mt-5 mb-3 text-uppercase text-primary'>InventoryItems</h1>
             <div className="container card-group">
             <div className="row gx-3 gy-3">
             {
