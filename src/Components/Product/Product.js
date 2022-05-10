@@ -23,7 +23,7 @@ const Product = ({laptop}) => {
                    <p className="py-0 my-0"> <strong>Supplier Name: </strong>  
                    : {supplier}</p>
                    <p className="my-0 py-0"><strong>Description: </strong> {description}</p>
-                 <button onClick={()=> updateToProduct(_id)} className="btn btn-primary w-100"><small> updated</small></button>
+                 <button to='/inventory'  onClick={()=> updateToProduct(_id)} className="btn btn-primary w-100"><small> updated</small></button>
              </div>
              </div>
              </div>

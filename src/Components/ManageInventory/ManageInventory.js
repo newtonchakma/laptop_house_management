@@ -18,7 +18,7 @@ const ManageInventory = () => {
             <div className="row gx-3 gy-3">
             {
                 laptops.map(laptop => <ManageInventoryItem
-                key={laptops._id}
+                key={laptop._id}
                 laptop={laptop}
                 ></ManageInventoryItem>)
             }

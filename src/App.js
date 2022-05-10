@@ -14,6 +14,7 @@ import ManageInventoryItem from './Components/ManageInventoryItem/ManageInventor
 import AddItem from './Components/AddItem/AddItem';
 import MyItem from './Components/MyItem/MyItem';
 import Blogs from './Components/Blogs/Blogs';
+import MyItemCard from './Components/MyItemCard/MyItemCard';
 
 
 function App() {
@@ -25,6 +26,11 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/products" element={<Products></Products>}></Route>
         <Route path="/product/:productId" element={
+          <RequireAuth>
+            <Inventory></Inventory>
+          </RequireAuth>
+        }></Route>
+        <Route path="/inventory" element={
           <RequireAuth>
             <Inventory></Inventory>
           </RequireAuth>
@@ -41,6 +47,12 @@ function App() {
          <MyItem></MyItem>
        </RequireAuth>
      }></Route>
+     <Route path="/myItemCard" element={
+       <RequireAuth>
+         <MyItemCard></MyItemCard>
+       </RequireAuth>
+     }></Route>
+     
       </Routes>
     </div>
   );

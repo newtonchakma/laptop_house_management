@@ -13,9 +13,9 @@ const Header = () => {
     return (
         <div>
 
-<Navbar bg="light" expand="lg">
+<Navbar className='fixed-top' collapseOnSelect expand="lg" bg="primary" variant="dark">
   <Container>
-    <Navbar.Brand as={Link} to="/">React-Bootstrap</Navbar.Brand>
+    <Navbar.Brand as={Link} to="/">LAPTOP HOUSE</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
@@ -28,7 +28,9 @@ const Header = () => {
 
         {
           user && <>
-          <Nav.Link as ={Link} to="myItem">MyItem</Nav.Link>
+          <Nav.Link as ={Link} to="myItemCard">MyItem</Nav.Link>
+      
+    
           </>
         }
         {

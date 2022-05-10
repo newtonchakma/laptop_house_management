@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Product from '../Product/Product';
 
 const Products = () => {
     const [laptops, setLaptops] = useState([]);
-
     useEffect(() => {
         const url = 'http://localhost:5000/laptop';
         console.log(url);
@@ -31,7 +30,8 @@ const Products = () => {
             </div>
             <div className="w-50 mt-3 mx-auto text-center">
                <Link to='/manageInventory'  className='btn btn-primary' >manage inventory</Link>
-         </div>
+              
+        </div>
         </div>
        
        </>
