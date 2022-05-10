@@ -17,10 +17,10 @@ const ManageInventoryItem = ({laptop}) => {
                    : {supplier}</p>
                    <p className="my-0 py-0"><strong>Description: </strong> {description}</p>               
              </div>
-             <div className="card-footer d-flex justify-content-between">
+             <div className="card-footer ">
      
-            <button className='btn btn-primary py-0'>Add Item</button>
-            <button className='btn btn-primary py-0'>Delete Item</button>
+          
+            <button className='btn btn-primary  w-100'>Delete Item</button>
 
       </div>
          </div>
